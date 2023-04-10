@@ -6,3 +6,14 @@
  - script
  - noscript
  - style
+
+## emmet
+- >
+- *
+- +
+- @
+- $
+- ^
+- {}
+- ()
+- []
