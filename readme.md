@@ -1,8 +1,8 @@
 # HTML 
 ## HTML Head 
- +- meta 
- +- title
- +- base
- +- script
- +- noscript
- +- style
+ - meta 
+ - title
+ - base
+ - script
+ - noscript
+ - style
