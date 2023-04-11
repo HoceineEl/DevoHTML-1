@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 5px solid black;
+            padding: 10px;
+        }
+        .green{
+            background-color: green;
+        }
+        .blue{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption><strong> this for blind people</strong></caption>
+        <colgroup>
+            <col class="blue" span="2">
+            <col class="green" span="3">
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col">item 02</th>
+                <th scope="col">item 01</th>
+                <th scope="col">item 03</th>
+                <th scope="col">item 04</th>
+            </tr> 
+        </thead>
+        <tbody>
+            <tr>
+                <td >data in item 01</td>
+                <td >data in item 02</td>
+                <td >data in item 03</td>
+                <td >data in item 04</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>800$</td>
+                <td>756$</td>
+                <td>925$</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
